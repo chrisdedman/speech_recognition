@@ -1,6 +1,6 @@
 import speech_recognition as sr
-import pyttsx3
 from sys import exit
+import pyttsx3
 import TimerTry
 import webbrowser
 
@@ -37,9 +37,9 @@ while (1):
             print("You said: ", r.recognize_google(audio))
             SpeakText(MyText)
             
-            ###################################################
-            #### Feel Free to add more command behind that ####
-            ###################################################
+            ##################################################
+            #### Feel Free to add more command after that ####
+            ##################################################
             if 'yes' in MyText:
                 print("Test Passed!")
             # If you said open a reminder (my other script) the script will open the other program. (feel free to try with your own script)
