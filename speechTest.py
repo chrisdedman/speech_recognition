@@ -36,12 +36,16 @@ while (1):
 
             print("You said: ", r.recognize_google(audio))
             SpeakText(MyText)
+            
+            ###################################################
+            #### Feel Free to add more command behind that ####
+            ###################################################
             if 'yes' in MyText:
                 print("Test Passed!")
-
+            # If you said open a reminder (my other script) the script will open the other program. (feel free to try with your own script)
             elif 'open a reminder' in MyText:
                 TimerTry.todaysDate()
-
+            # This next few line of code will open spesific task (according with what you will say) feel free to add more command.
             elif 'open facebook' in MyText:
                 webbrowser.open('http://facebook.com')
             
@@ -50,7 +54,7 @@ while (1):
                 
             elif 'open cisco' in MyText:
                 webbrowser.open('http://cisco.com')
-
+            # Here if you say stop in your sentence (exemple: can you please STOP the program #AlwaysBeKind, the script will stop.
             elif 'stop' in MyText:
                 print("Test Passed!")
                 exit(0)
