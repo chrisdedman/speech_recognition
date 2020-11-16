@@ -7,6 +7,14 @@ This is a Digital Assistant, launch the program (digital_assistant.py) talk to t
 (This is a hard coding, not a machine learning version.)
 # _______________________________________________
 
+Module Needed:
+- pip3 install requests
+- pip3 install speech_recognition
+- pip3 install pyttsx3
+- pip3 install pyaudio
+- pip3 install pyjoke
+
+# _______________________________________________
 # I uploade a video when I run the program:
 
 Let me know what you think, and any ideas for improve the script are welcome. 
