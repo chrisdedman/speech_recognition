@@ -84,9 +84,6 @@ if __name__ == '__main__':
             chris = "Chris is my father, and I am greatfull that he made me."
             print(chris)
             speakText(chris)
-        
-        elif 'Do you know phoebe dedman' in MyText:
-            speakText("Of course! She is a wanderful woman... strong and independante.")
 
         elif 'alarm' in MyText:
             alarm.anAlarm()
