@@ -19,6 +19,4 @@ Module Needed:
 
 Let me know what you think, and any ideas for improve the script are welcome. 
 
-(first version, this is not the version uploade on GitHub)
-
-~ https://youtu.be/OziMLtQug-A
+~ https://www.youtube.com/watch?v=ICbdiDPBnQw
