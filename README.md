@@ -9,6 +9,8 @@ This is a Digital Assistant, launch the program (digital_assistant.py) talk to t
 
 # I uploade a video when I run the program:
 
-Let me know what you think, and any ideas for improve the script are welcome. (first version, this is not the version uploade on GitHub)
+Let me know what you think, and any ideas for improve the script are welcome. 
+
+(first version, this is not the version uploade on GitHub)
 
 ~ https://youtu.be/OziMLtQug-A
