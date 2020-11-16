@@ -48,8 +48,8 @@ def welcome():
 def Command():
 
     r = sr.Recognizer()
-    r.energy_threshold = 5000
-    with sr.Microphone(sample_rate = 44100) as source:
+    #r.energy_threshold = 5000
+    with sr.Microphone(device_index=0) as source:
 
         print("I'm listening...")
         r.pause_threshold = 1
