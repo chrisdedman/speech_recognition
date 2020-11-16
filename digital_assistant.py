@@ -16,7 +16,7 @@ import os
 
 # Init the Convert
 engine = pyttsx3.init()
-voice_id = "english-us"
+voice_id = "english-us" # < --- Linux Ubuntu ID Voice
 engine.setProperty('voice', voice_id)
 # Sets speed percent, can be more than 100
 engine.setProperty('rate', 180)
