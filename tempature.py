@@ -9,7 +9,7 @@ from digital_assistant import Command
 
 def weather():
     # Enter your API key here
-    api_key = "441df3a5cadc2498e093c0367cae6817"
+    api_key = "KEY API"
     # base_url variable to store url
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     # Give city name
